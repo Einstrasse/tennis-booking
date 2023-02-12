@@ -1,0 +1,31 @@
+th.booker.Sun {
+    color: red;
+}
+th.booker.Sat {
+    color: blue;
+}
+
+td.booker.ok {
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+td.booker.full {
+    background-color: orangered;
+}
+td.booker.na {
+    background-color: gray;
+}
+
+table.booker th, table.booker td {
+    border: solid gray 1px;
+    min-width: 40px;
+    min-height: 20px;
+    padding: 1px;
+}
+
+div.month {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25em;
+}

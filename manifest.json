@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Tennis booking",
+    "description": "테니스 예약 헬퍼 프로그램",
+    "version": "0.1.0",
+    "permissions":[],
+    "host_permissions":[
+        "https://yeyak.seoul.go.kr/*"
+    ],
+    "icons": {
+
+    },
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "css": ["booker.css"],
+            "js": ["content.js"],
+            "matches": [
+                "https://yeyak.seoul.go.kr/web/search/selectPageListDetailSearchImg.do?*"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
