@@ -16,7 +16,7 @@
             "css": ["booker.css"],
             "js": ["content.js"],
             "matches": [
-                "https://yeyak.seoul.go.kr/web/search/selectPageListDetailSearchImg.do?*"
+                "https://yeyak.seoul.go.kr/web/search/selectPageListDetailSearchImg.do*"
             ],
             "run_at": "document_end"
         }
